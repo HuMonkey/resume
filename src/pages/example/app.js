@@ -3,6 +3,7 @@ import './app.less';
 import educations from './data/educations';
 import projects from './data/projects';
 import jobs from './data/jobs';
+import features from './data/features';
 
 let educationsDom = '';
 educations.forEach((d, i) => {
@@ -53,3 +54,9 @@ jobs.forEach((d, i) => {
     </div>`
 });
 $('.jobs .list').html(jobsDom);
+
+let featuresDom = '';
+features.forEach((d, i) => {
+    featuresDom += `<li>${d}</li>`;
+})
+$('.features .list').html(featuresDom);
