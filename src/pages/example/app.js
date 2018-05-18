@@ -4,6 +4,7 @@ import educations from './data/educations';
 import projects from './data/projects';
 import jobs from './data/jobs';
 import features from './data/features';
+import skills from './data/skills';
 
 let educationsDom = '';
 educations.forEach((d, i) => {
@@ -60,3 +61,9 @@ features.forEach((d, i) => {
     featuresDom += `<li>${d}</li>`;
 })
 $('.features .list').html(featuresDom);
+
+let skillsDom = '';
+skills.forEach((d, i) => {
+    skillsDom += `<li>${d}</li>`;
+})
+$('.skills .list').html(skillsDom);
