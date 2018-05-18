@@ -32,7 +32,7 @@ const config = {
   output: {
     path: resolve(__dirname, './build'),
     filename: 'assets/js/[name].js',
-    publicPath: process.env.NODE_ENV === 'development' ? '/' : `/public/${name}/${version}/`
+    publicPath: process.env.NODE_ENV === 'development' ? '/' : `/public/`
   },
   resolve: {
     extensions: ['.js', '.vue'],
