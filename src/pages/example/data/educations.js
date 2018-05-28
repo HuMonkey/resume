@@ -5,7 +5,7 @@ const educations = [
         startTime: '2014.09',
         endTime: '2017.04',
         spe: '计算机科学与技术',
-        org: '计算机学院 CAD国家重点实验室 数据可视化及可视分析小组',
+        org: 'CAD国家重点实验室 数据可视化小组',
         city: '杭州',
         remarks: [
             '研究方向：数据可视化和可视分析',
