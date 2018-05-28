@@ -32,7 +32,7 @@ const config = {
   output: {
     path: resolve(__dirname, './build'),
     filename: 'assets/js/[name].js',
-    publicPath: process.env.NODE_ENV === 'development' ? '/' : `/public/`
+    publicPath: process.env.NODE_ENV === 'development' ? '/' : `/`
   },
   resolve: {
     extensions: ['.js', '.vue'],
@@ -114,7 +114,7 @@ const config = {
       }
     },
     open: true,
-    openPage: 'example.html'
+    openPage: 'index.html'
   },
   devtool: '#eval-source-map'
 }
