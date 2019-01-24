@@ -28,8 +28,8 @@ const projects = [
     {
         name: 'mgc（机器自动生成短视频）',
         company: '新华智云科技有限公司',
-        desc: `<p>批量生产可视化新闻视频模板；制作 cli 工具 mgc-cli ，提高了前端模板的开发和调试效率；</p>
-        <p>基于 headless chrome 和 ffmpeg 将浏览器的网页内容录制成视频，并将视频片段、bgm、字幕等元素自动拼接成短视屏；</p>`
+        desc: `<p>批量生产可视化新闻视频模板；基于 headless chrome 和 ffmpeg 将浏览器的网页内容录制成视频，并将视频片段、bgm、字幕等元素自动拼接成短视屏；</p>`
+        // <span>制作 cli 工具 mgc-cli ，提高了前端模板的开发和调试效率；</span>
     },
     // {
     //     name: '酒店邦',
